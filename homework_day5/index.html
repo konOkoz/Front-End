@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/6042127.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration new account</h1>
+    <p>Fields with * are required.</p>
+    <form action="">
+    <label for="email">*Email:</label>
+    <input type="email"
+           id="emal"
+           placeholder="Enter your email"
+           required>
+    <label for="password">*Password:</label>
+    <input type="password" 
+           id="password"
+           placeholder="Create a password"
+           required>
+    <label for="password-confirmation">*Confirm your password:</label>           
+    <input type="password"
+           id="password-confirmation"
+           placeholder="Enter a password again"
+           required>
+    <label for="first-name">*First name:</label>
+    <input type="text"
+           id="first-name"
+           placeholder="Enter first name"
+           required>
+    <label for="last-name">*Last name:</label>
+    <input type="text"
+           id="last-name"
+           placeholder="Enter last name"
+           required>
+    <label for="birthday">*Birthday:</label>
+    <input type="date"
+           id="birthday"
+           required> 
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender" required>
+            <option value="">Select your gender:</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+           </select>             
+    <label for="phone">Phone number:</label>
+    <input type="tel"
+           id="phone"      
+           placeholder="Enter your phone number:">    
+    <input type="submit" value="Submit" id="submit">
+    <input type="reset" value="Reset" id="reset">
+</form>
+         
+    
+    
+    
+</body>
+</html>
